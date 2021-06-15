@@ -6,3 +6,6 @@ Word list was taken from a [10,000 most common English words list](https://githu
 ### Select difficulty:
 
 After picking a difficulty, app will load words-{difficulty}.txt and pick a word at random. Note that for the easy words, the app will not allow a word less than MIN_SIZE (3) to be picked.
+
+### Build & run:
+cargo run
