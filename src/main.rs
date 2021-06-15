@@ -55,7 +55,8 @@ fn pickFile() -> String {
 
         io::stdin().read_line(&mut choice)
                    .expect("Failed to read line");
-        match choice.trim() {
+
+        match choice.to_lowercase().trim() {
             "1" | "easy" => {
                 fileName = "words-easy.txt".to_string();
                 break;
